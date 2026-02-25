@@ -1,55 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-    <title>
-        Paragraf
-    </title>
+    <meta charset="UTF-8">
+    <title>Tugas Pengenalan HTML - Alif Maulana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .content {
+            text-indent: 1.27cm;
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+        .footer-note {
+            font-weight: bold;
+            margin-top: 30px;
+            border-top: 1px solid #ddd;
+            padding-top: 10px;
+        }
+        marquee {
+            font-weight: bold;
+            color: #e74c3c;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
 
-<h2>
-    <div align="center">
-        <b><div style="font-size:48px;">Apa Itu <i>HTML</i> ?</div></b>
+<div class="container">
+    <h1>Mengenal Dasar-Dasar HTML</h1>
+
+    <div class="content">
+        <b>HyperText Markup Language</b> atau yang lebih dikenal sebagai <b>HTML</b> adalah sebuah protokol standar yang digunakan untuk menyusun struktur halaman di dunia web. Melalui HTML, kita dapat menampilkan berbagai elemen seperti narasi teks, visual gambar, hingga konten multimedia seperti audio dan video. Secara teknis, dokumen ini terdiri dari kumpulan instruksi yang disebut <i>tag</i>.
     </div>
-</h2>
 
-<div style="text-indent:1.27cm" align="justify">
-    HTML adalah singkatan dari <i>(<b>H</b>yper<b>T</b>ext <b>M</b>arkup <b>L</b>anguage)</i>, 
-    yaitu bahasa (aturan standar yang digunakan untuk menampilkan teks, gambar, video dan audio ke dalam halaman <i>web</i>).
-    HTML merupakan <i>file</i> teks yang tersusun atas elemen-elemen yang disebut dengan <i>tag</i>.
-    <i>Tag</i> HTML diapit dengan tanda lebih kecil (<) dan tanda lebih besar (>), misalnya: 
-    <b>&lt;html&gt;, &lt;head&gt;, &lt;body&gt;, &lt;title&gt;, &lt;p&gt;</b>, dan lain-lain.
-    HTML ada yang memiliki pasangan, ada juga yang tidak. Jika suatu <i>tag</i> memiliki pasangan,
-    maka <i>tag</i> penutup akan disertai dengan tanda <i>slash</i> (/), misalnya:
-    <b>&lt;/html&gt;, &lt;/head&gt;, &lt;/body&gt;, &lt;/p&gt;</b>, dan lain-lain.
+    <div class="content">
+        Penulisan <i>tag</i> identik dengan penggunaan kurung sudut, seperti <code>&lt;html&gt;</code> atau <code>&lt;body&gt;</code>. Mayoritas dari elemen ini bekerja secara berpasangan, di mana terdapat instruksi pembuka dan instruksi penutup yang ditandai dengan simbol garis miring (<i>slash</i>), misalnya pada elemen <code>&lt;p&gt;</code> dan <code>&lt;/p&gt;</code>.
+    </div>
+
+    <div class="content">
+        Untuk menyusun berkas ini, seorang pengembang hanya membutuhkan aplikasi penyunting teks (<i>Text Editor</i>). Setelah kode disusun, file tersebut wajib disimpan menggunakan format ekstensi <b>.html</b> agar dapat diterjemahkan dengan sempurna oleh peramban web (<i>browser</i>).
+    </div>
+
+    <div class="footer-note">Daftar Pustaka (APA 7th Edition):</div>
+    <ol>
+        <li>Elektronika Dasar. (n.d.). <i>Prinsip Kerja Motor DC</i>. http://elektronika-dasar.web.id/teori-elektronika/prinsip-kerja-motor-dc/</li>
+        <li>Nurdiansyah, R. (2011). <i>Perancangan Dan Implementasi Sistem Absensi menggunakan RFID</i> [Tugas Akhir].</li>
+    </ol>
+
+    <marquee behavior="alternate">>>> PROJEK PERTAMA MAHASISWA INFORMATIKA UTM <<<</marquee>
 </div>
-
-<br>
-
-<div style="text-indent:1.27cm" align="justify">
-    Dokumen atau <i>file</i> HTML dapat dibuat menggunakan aplikasi <i>Text Editor</i> apa saja,
-    dan disimpan dengan ekstensi <b>.html</b> atau <b>.htm</b>.
-    Untuk memudahkan proses belajar Anda, penulis merekomendasikan agar Anda menggunakan
-    <i>Text Editor</i> yang secara khusus dirancang untuk menulis kode-kode HTML.
-    Saat ini banyak <i>software Text Editor</i> untuk HTML yang ditawarkan secara gratis di Internet.
-</div>
-
-<br>
-
-<b><u>Daftar Pustaka:</u></b>
-
-<br>
-
-<ol>
-    <li>http://elektronika-dasar.web.id/teori-elektronika/prinsip-kerja-motor-dc/</li>
-    <li>Nurdiansyah, Ryan (2011) Perancangan Dan Implementasi Sistem Absensi menggunakan RFID, Bandung: Tugas Akhir</li>
-</ol>
-
-<marquee direction="left" behavior="alternate">
-    <marquee direction="down" behavior="alternate" style="font-size:72px; color:red;">
-        <b>TUGAS PERTAMAKU</b>
-    </marquee>
-</marquee>
 
 </body>
 </html>
