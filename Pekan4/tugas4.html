@@ -2,23 +2,25 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Tugas Pekan 2 - Pengenalan CSS & Heading</title>
+    <title>Tugas Pekan 4 - CSS dan Heading</title>
     <style>
         body {
-            background-color: powderblue; 
-            font-family: Arial, sans-serif;
+            background-color: powderblue;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 40px;
         }
         h1 {
-            color: blue; 
+            color: blue;
             text-align: center;
         }
-        .teks-merah {
+        p {
             color: red;
+            line-height: 1.6;
+            text-align: justify;
         }
-        .container {
-            background-color: white;
-            padding: 30px;
+        .wadah-konten {
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 25px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
@@ -26,27 +28,21 @@
 </head>
 <body>
 
-<div class="container">
-    <h1>Level 1: Judul Utama Dokumen</h1>
+<div class="wadah-konten">
+    <h1>Level 1: Judul Utama Halaman</h1>
     <h2>Level 2: Sub-judul Pertama</h2>
-    <h3>Level 3: Sub-bagian Materi</h3>
-    <h4>Level 4: Detail Spesifik</h4>
+    <h3>Level 3: Bagian Penjelasan</h3>
+    <h4>Level 4: Detail Informasi</h4>
     <h5>Level 5: Poin Tambahan</h5>
     <h6>Level 6: Catatan Kaki Terkecil</h6>
 
-    <p class="teks-merah">
-        Paragraf ini berwarna merah sebagai implementasi dari instruksi CSS dasar pada elemen teks.
-    </p>
+    <p>Ini adalah contoh sebuah paragraf. Sesuai dengan instruksi CSS yang diberikan, seluruh teks di dalam blok ini akan otomatis dirender dengan warna merah.</p>
 
-    <p>
-        HyperText Markup Language (HTML) adalah standar bahasa utama yang digunakan dalam membangun arsitektur sebuah situs web. Hampir seluruh halaman di internet dikonstruksi menggunakan fondasi ini. 
-        <br><br>
-        Melalui pemanfaatan HTML, seorang pengembang web memiliki kontrol penuh untuk mengintegrasikan teks, menyematkan visual gambar, dan menggabungkan berbagai elemen multimedia agar dapat dirender dengan sempurna saat diakses melalui peramban web.
-    </p>
+    <p>HyperText Markup Language (HTML) merupakan bahasa standar yang sangat esensial dalam merancang arsitektur sebuah situs web. Pada umumnya, fondasi dari setiap halaman di internet dikonstruksi menggunakan variasi dari HTML ini. Melalui penggunaan bahasa marka tersebut, seorang pengembang web memiliki kemampuan untuk mengintegrasikan teks, visual gambar, serta berbagai elemen multimedia lainnya agar dapat menyatu dan ditampilkan dengan sempurna saat dijalankan melalui peramban web.</p>
 
-    <hr>
-    <p style="text-align: center; font-weight: bold; color: black;">
-        Disusun oleh: Alif Maulana (NIM: 240631100059) - Pendidikan Informatika UTM
+    <br>
+    <p style="text-align: center; color: black; font-weight: bold;">
+        Disusun oleh: Alif Maulana (NIM: 240631100059) <br> Pendidikan Informatika UTM
     </p>
 </div>
 
